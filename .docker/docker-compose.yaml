@@ -1,0 +1,13 @@
+version: '3.8'
+
+networks:
+  redis_net:
+    driver: bridge
+  database_net:
+    driver: bridge
+  minio_net:
+    driver: bridge
+
+volumes:
+  database-data:
+  db-data:
